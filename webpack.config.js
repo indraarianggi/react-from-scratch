@@ -9,6 +9,12 @@ module.exports = {
         filename: "budle.js",
     },
     devtool: "source-map",
+    devServer: {
+        contentBase: __dirname + "./dist",
+        port: 3000,
+        open: true,
+        hot: true,
+    },
     module: {
         rules: [
             {
