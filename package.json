@@ -1,0 +1,21 @@
+{
+  "name": "react-app-from-scratch",
+  "version": "1.0.0",
+  "description": "Create a React Development Build from Scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "eslint"
+  ],
+  "author": "Indra Arianggi",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
