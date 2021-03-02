@@ -1,21 +1,38 @@
 {
-  "name": "react-app-from-scratch",
-  "version": "1.0.0",
-  "description": "Create a React Development Build from Scratch",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "react",
-    "webpack",
-    "babel",
-    "eslint"
-  ],
-  "author": "Indra Arianggi",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  }
+    "name": "react-app-from-scratch",
+    "version": "1.0.0",
+    "description": "Create a React Development Build from Scratch",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npx webpack"
+    },
+    "keywords": [
+        "react",
+        "webpack",
+        "babel",
+        "eslint"
+    ],
+    "author": "Indra Arianggi",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.8",
+        "@babel/preset-env": "^7.13.9",
+        "@babel/preset-react": "^7.12.13",
+        "babel-eslint": "^10.1.0",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.1.1",
+        "eslint": "^7.21.0",
+        "eslint-loader": "^4.0.2",
+        "eslint-plugin-react": "^7.22.0",
+        "html-loader": "^2.1.1",
+        "html-webpack-plugin": "^5.2.0",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.24.2",
+        "webpack-cli": "^4.5.0"
+    }
 }
